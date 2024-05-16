@@ -1,0 +1,9 @@
+python-dotenv
+langchain_google_genai
+psycopg2-binary
+langchain
+sentence-transformers
+spacy
+fitz
+PyMuPDF==1.24.4
+Sphinx
