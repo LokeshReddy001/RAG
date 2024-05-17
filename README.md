@@ -58,7 +58,7 @@ If you don't have an `API_KEY`, you can get one [here](https://aistudio.google.c
 
 ## Indexing the data
 
-To index the data, keep your files in a folder named `files`( or any other name you prefer and update the `main.py` file accordingly) in the root directory of the repo and set index_creation to True in the `main.py` file:
+Before we start querying the llm, we have to index our datasets to a table in a database. To index the data, keep your files in a folder named `files`( or any other name you prefer and update the `main.py` file accordingly) in the root directory of the repo and set index_creation to True in the `main.py` file:
 
 ```python
 index_creation = True
